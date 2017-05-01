@@ -29,8 +29,8 @@ To manually install frappe/erpnext here are the steps
 
 Install bench as a *non root* user,
 
-	git clone https://github.com/frappe/bench bench-repo
-	sudo pip install -e bench-repo
+	git clone https://github.com/YefriTavarez/bench-v7 bench
+	sudo pip install -e bench
 
 Note: Please do not remove the bench directory the above commands will create
 
@@ -46,9 +46,9 @@ Note: Please do not remove the bench directory the above commands will create
 
 * Add apps
 
-	The get-app command gets remote frappe apps from a remote git repository and installs it. Example: [erpnext](https://github.com/frappe/erpnext)
+	The get-app command gets remote frappe apps from a remote git repository and installs it. Example: [erpnext](https://github.com/YefriTavarez/erpnext-v7)
 
-		bench get-app erpnext https://github.com/frappe/erpnext
+		bench get-app erpnext https://github.com/YefriTavarez/erpnext-v7
 
 * Add site
 
@@ -97,6 +97,8 @@ For Linux:
 For Mac OSX:
 
 Install X Code (from App store) and HomeBrew (http://brew.sh/) first
+
+DO NOT USE THE EASY INSTALL IF YOU WANT TO BE KEPT IN THE V7
 
 	brew install python
 	brew install git
